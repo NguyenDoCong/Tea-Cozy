@@ -1,0 +1,47 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.navbar {
+  justify-content: space-around;
+}
+
+.navbar a {
+  color: seashell;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+}
+
+.banner {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slogan {
+  background-color: black;
+  width: 1200px;
+  /* justify-content: center;
+  align-items: center; */
+}
